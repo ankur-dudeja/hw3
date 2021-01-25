@@ -12,7 +12,7 @@ const manipulateDOM = function () {
     document.querySelector('.passenger-1-dropoff-address-line-1').innerHTML = passenger1DropoffAddressLine1
     document.querySelector('.passenger-1-dropoff-address-line-2').innerHTML = passenger1DropoffAddressLine2
   }
-  if (window.passenger2Name == undefined) {
+  if (passenger2Name == undefined) {
     document.querySelector('.passenger-2').style.display = 'none'
   } else {
     document.querySelector('.passenger-2-name').innerHTML = passenger2Name
@@ -23,7 +23,7 @@ const manipulateDOM = function () {
     document.querySelector('.passenger-2-dropoff-address-line-1').innerHTML = passenger2DropoffAddressLine1
     document.querySelector('.passenger-2-dropoff-address-line-2').innerHTML = passenger2DropoffAddressLine2
   }
-  if (window.passenger3Name == undefined) {
+  if (passenger3Name == undefined) {
     document.querySelector('.passenger-3').style.display = 'none'
   } else {
     document.querySelector('.passenger-3-name').innerHTML = passenger3Name

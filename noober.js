@@ -1,4 +1,4 @@
-let levelOfService = 'Noober X'
+let levelOfService
 let passenger1Name
 let passenger1Phone
 let passenger1NumberOfPassengers
@@ -106,10 +106,6 @@ function pageLoad() {
         levelOfService = 'Noober X'
     }
     }
-
-    console.log(passenger1Name)
-    console.log(passenger2Name)
-    console.log(passenger3Name)
 
     // levelOfService = 'tacos'
   // passenger1Name, passenger1Phone, passenger1NumberOfPassengers
